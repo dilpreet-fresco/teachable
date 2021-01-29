@@ -1,8 +1,4 @@
-import ax from 'axios';
-
-const axios = ax.create({
-  baseURL: 'http://13.232.126.227:5000',
-});
+import axios from 'axios';
 
 export default class AuthService {
   static async signinWithEmailAndPassword({ email, password }) {
