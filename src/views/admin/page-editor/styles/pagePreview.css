@@ -1,0 +1,150 @@
+body {
+  font-family: Basis, arial, sans-serif;
+  font-feature-settings: 'liga';
+  font-size: 20px;
+  font-weight: 400;
+  color: #1b4942 !important;
+}
+.topnav {
+  overflow: hidden;
+  border-bottom: solid 1.2px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 19px 9px 11px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  color: #000;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+.logincol {
+  border-right: solid 1.2px;
+  padding-bottom: 15px;
+}
+.logincol1 {
+  border-right: solid 1.2px;
+  padding-bottom: 15px;
+  padding: 0 0 9px 71px;
+}
+.getstartedli {
+  padding: 0 0 0 34px;
+}
+.teachableimg {
+  margin: 0 37px 5px 37px;
+}
+.secondcol {
+  margin-top: 8px;
+}
+::placeholder {
+  color: #222;
+}
+@media only screen and (max-width: 2560px) and (min-width: 1001px) {
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 30px 18px 13px 13px;
+    text-decoration: none;
+  }
+  .fa {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 10px 13px 10px 12px;
+    color: #fff;
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 999px) and (min-width: 719px) {
+  .DesktopMenu {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 100px) {
+  .DesktopMenu {
+    display: none;
+  }
+}
+a:hover {
+  color: #1b4942;
+  text-decoration: none;
+}
+.fa {
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+  padding: 10px 13px 10px 12px;
+  margin: 0 3px 3px 3px;
+}
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+* {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0;
+}
+::-webkit-scrollbar-track {
+  background: 0 0;
+}
+::-webkit-scrollbar-thumb {
+  background: 0 0;
+  border: none;
+}
+* {
+  -ms-overflow-style: none;
+}

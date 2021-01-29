@@ -1,0 +1,59 @@
+.fa-check:before {
+  content: '\f00c';
+  color: #5ddab7;
+  border-radius: 50%;
+  border: 1.5px solid #5ddab7;
+  padding: 2px 2px 2px 2px;
+  margin: 0 3px 3px 2px;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.fa-info-circle {
+  border: 1.5px solid #fff0 !important;
+}
+.tooltip-main {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-weight: 700;
+  background: #fff;
+  border: 1px solid #c8e3d8;
+  color: #1b4942 !important;
+  margin: 4px 121px 0 5px;
+  float: right;
+  text-align: left !important;
+}
+
+.tooltip-qm {
+  float: left;
+  margin: -2px 0px 3px 4px;
+  font-size: 12px;
+}
+
+.tooltip-inner {
+  max-width: 336px !important;
+  height: 90px;
+  font-size: 12px;
+  padding: 10px 15px 10px 20px;
+  background: #fff;
+  color: #1b4942 !important;
+  border: 1px solid #c8e3d8;
+  text-align: left;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.bs-tooltip-auto[x-placement^='bottom'] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  border: 1px solid #c8e3d8;
+  /* Red */
+}
+ol,
+li {
+  list-style: square;
+  margin: 0;
+  padding: 0;
+}

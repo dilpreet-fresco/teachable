@@ -1,0 +1,50 @@
+.nav-tabs > li > a:hover {
+  border-color: #eee0 #eee0 #ddd0;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #eee0;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: #1b4942;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+  font-size: 35px;
+  padding: 0 0 0 28px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd0;
+  border-bottom-color: transparent;
+}
+.nav-tabs {
+  border-bottom: 1px solid #ddd0;
+}
+.nav-tabs {
+  margin-bottom: 60px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #1b4942;
+  cursor: default;
+  background-color: #fff;
+  border-bottom: 3px solid #1b4942 !important;
+}
+.topnav {
+  overflow: hidden;
+  border-bottom: solid 1.2px;
+  background-color: #f8faf4;
+}

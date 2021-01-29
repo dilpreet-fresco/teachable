@@ -1,0 +1,20 @@
+.navbar-default .navbar-nav > li > a {
+  color: #222 !important;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background-color: #fff !important;
+}
+ol,
+li {
+  list-style: square;
+  margin: 0;
+  padding: 0;
+}
+.featuredesktop {
+  background-color: #21cd9c;
+}
+.featuremobile {
+  background-color: #21cd9c !important;
+  margin: 0 0 0 0;
+}

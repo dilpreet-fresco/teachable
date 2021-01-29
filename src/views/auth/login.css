@@ -1,0 +1,207 @@
+@media only screen and (max-width: 2560px) and (min-width: 1000px){
+	.space1{
+		height:50px;
+	}
+	.half-divided{
+    display: flex;
+}
+.form-group2{
+    margin-left: 10px;
+	}
+	.form-group1{
+	    margin-right: 10px;
+	}
+.background-light form {
+    font-size: 14px;
+    padding: 0 60px 0 60px;
+}
+.background-light .space{
+height: 170px;
+}
+.background-light .space2{
+height: 80px;
+}
+.background-light .leftside{
+background-image:url('uploads/onboarding-survey-bgg.png');
+        background-size: contain;
+    background-repeat: no-repeat;
+	background-color: #ffff;
+}
+.background-light .bg-cont{
+padding: 0px 120px 0px 120px;
+}}
+@media only screen and (max-width: 500px) and (min-width: 100px){
+	.background-light .btn-primary1 {
+width:100%;
+    background-image: none!important;
+       background-color: #1ea69a !important;
+    border: 1px solid #1ea69a !important;
+    font-weight: 600 !important;
+    outline: none !important;
+    color: #fff;
+    border-radius: 20px;
+    padding: 13px 20px 16px 30px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.background-light .btn-primary {
+width:100%;
+    background-image: none!important;
+       background-color: #1ea69a !important;
+    border: 1px solid #1ea69a !important;
+    font-weight: 600 !important;
+    outline: none !important;
+    color: #fff;
+    border-radius: 20px;
+    padding: 13px 30px 16px 44px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.background-light .rightside{
+padding: 0 40px 0 40px;
+}
+.space2{
+height: 50px;
+}
+.background-light .leftside{
+margin-top:50px;
+margin-bottom:50px;
+}
+
+}
+.background-light{
+    background-color: #f5f5f8;
+    padding: 0 0 0 0;
+}
+.rightside{
+border:1px solid #efeff5;
+background-color: #ffff;
+}
+
+.background-light .signuptxt {
+    color: #1e2327;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+.background-light .btn-primary1{
+
+    background-color: #1ea69a !important;
+    border: 1px solid #1ea69a !important;
+    font-weight: 600 !important;
+    outline: none !important;
+    color: #fff;
+    border-radius: 20px;
+       padding: 13px 20px 16px 22px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 13px;
+    border-radius: 30px;
+	text-align: center;
+	}
+.background-light .btn-primary{
+	
+background-image: url('uploads/teachable-icon-white-rebrand.png');
+    background-size: 15px;
+    background-position: left;
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    background-color: #1ea69a !important;
+    border: 1px solid #1ea69a !important;
+    font-weight: 600 !important;
+    outline: none !important;
+    color: #fff;
+    border-radius: 20px;
+    padding: 13px 30px 16px 44px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 14px;
+    border-radius: 30px;
+	text-align: center;
+	}
+	.background-light .terms-txt{
+	color:#1ea69a;
+	}
+	.background-light form{
+	font-size:14px;
+	}
+	.background-light .form-check {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+	.background-light .main-row{
+	background-color: #fff;
+	}
+	.background-light label {
+		font-family: system-ui;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    color: #4a4e6d;
+    font-size: 13px;
+}
+.background-light .form-check-label{
+font-weight: 400;
+    font-size: 11px;
+}
+
+	.cntrbtn {
+    text-align: center;
+    margin-bottom: 40px;
+}
+	.secrowsign{
+	background-color:#fff;
+	}
+	.terms-txt1 {
+    color: #20bdaf;
+    font-weight: 500;
+}
+.form-groupacc {
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+.form-acc-label{
+font-weight: 400!important;
+    color: #9294a0!important;
+}
+	body{
+	background-color: #f5f5f8;
+	}
+	.colmsevn{
+	border-left: 1px solid #efeff5;
+	}
+	.cntrbtnfg {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.link-below-button{
+	color: #9294a0;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline;
+	}
+	.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%)!important;
+}
